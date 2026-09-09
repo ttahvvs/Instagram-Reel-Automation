@@ -66,5 +66,5 @@ python generate_reel.py
 3. If you haven't initialized the repository yet, click **Initialize Repository**.
 4. In the "Message" input field, type:
    ```text
-```
    feat: autonomous physics simulation and instagram reels publishing pipeline
+```
