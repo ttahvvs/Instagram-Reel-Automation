@@ -42,8 +42,9 @@ An end-to-end, zero-cost automated content engine that procedurally generates 2D
 ```bash
 git clone [https://github.com/ttahvvs/autonomous-physics-reels.git](https://github.com/ttahvvs/autonomous-physics-reels.git)
 cd autonomous-physics-reels
-
+```
 ### 2. Install Dependencies
+```
 
 pip install pygame pymunk moviepy numpy google-genai cloudinary python-dotenv requests
 
@@ -57,12 +58,13 @@ META_ACCESS_TOKEN=your_meta_long_lived_token
 python generate_reel.py
 
 ---
-
+```
 ### Step 3: Publish to GitHub via VS Code
-
+```
 1. Click on the **Source Control** tab on the left sidebar of VS Code (or press `Ctrl + Shift + G`).
 2. Verify that **`.env`** and **`final_reel_silent.mp4`** are **NOT** listed in the changes list (this confirms `.gitignore` is working).
 3. If you haven't initialized the repository yet, click **Initialize Repository**.
 4. In the "Message" input field, type:
    ```text
+```
    feat: autonomous physics simulation and instagram reels publishing pipeline
