@@ -1,0 +1,4 @@
+.env
+__pycache__/
+final_reel_silent.mp4
+tokens.txt
